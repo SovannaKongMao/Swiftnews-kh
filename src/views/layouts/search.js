@@ -31,7 +31,7 @@ function SearchNews() {
     useEffect(() => {
         getNews(searchKey);
         console.log(click);
-    }, [click]);
+    }, [click,searchKey]);
 
     // const openUrl = (url) => {
     //   const newWindow = window.open(url, "_blank", "noopener,noreferrer");
