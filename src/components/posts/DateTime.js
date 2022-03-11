@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const DateTime = () => {
 
     var showdate = new Date();
-    var displaytodaydate = showdate.getDate() + '/' + showdate.getMonth() + '/' + showdate.getFullYear();
+    // var displaytodaydate = showdate.getDate() + '/' + showdate.getMonth() + '/' + showdate.getFullYear();
     var dt = showdate.toDateString();
     // var displaytime = showdate.getHours() + ':' + showdate.getMinutes() + ':' + showdate.getSeconds();
 

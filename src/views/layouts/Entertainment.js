@@ -7,7 +7,7 @@ function Entertain() {
     const getNews = () => {
         axios
             .get(
-                "https://newsapi.org/v2/top-headlines?category=entertainment&apiKey=2d747e1d943d4dbeb2965bafc529f1c2"
+                "https://newsapi.org/v2/top-headlines?category=entertainment&apiKey=ce070bbd38b14214bb368e325a0d7f31"
             )
             .then((response) => {
                 console.log(response);
