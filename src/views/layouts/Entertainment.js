@@ -43,6 +43,7 @@ function Entertain() {
                                                 href={value.url}
                                                 className="card-text"
                                                 target="_blank"
+                                                rel="noreferrer"
                                             >
                                                 <small className="text-primary ">Read more</small>
                                             </a>
